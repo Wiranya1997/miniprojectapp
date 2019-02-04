@@ -28,6 +28,8 @@ export class AccountPage {
       this.navCtrl.push("WithdrawalPage");
     } else if (_choice == 3) {
       this.navCtrl.push("BalancePage");
+    }  else if (_choice == 4) {
+      this.navCtrl.push("AboutMePage");
     } 
 }
     }

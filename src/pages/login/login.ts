@@ -34,7 +34,7 @@ export class LoginPage {
 */
 
 signIn(_username,_password){
-  let url = this.myIP + '/miniproapp/getLogin.php';
+  let url = this.myIP + '/miniproapp/getAllAccountData.php';
   this.http.get(url).subscribe(
     (data: any) => {
       console.log(data);
